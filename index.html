@@ -1,12 +1,29 @@
 <!doctype html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    
+    <!-- Ikon yang muncul di tab browser (Favicon) -->
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    
+    <!-- Optimasi untuk tampilan Mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ai-tryon-studio</title>
+    <meta name="theme-color" content="#4f46e5" />
+    
+    <!-- Optimasi SEO -->
+    <meta name="description" content="AI Try-On & Holder Studio. Gabungkan subjek Anda dengan produk secara fotorealistik menggunakan AI generatif." />
+    <meta name="author" content="YadongOfficial" />
+    
+    <!-- Judul yang muncul di Tab Browser -->
+    <title>AI Try-On Studio</title>
+
+    <!-- Memuat Font 'Inter' dari Google Fonts agar tipografi lebih elegan dan profesional -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body class="antialiased">
+    <!-- Di dalam div 'root' inilah React akan "menyuntikkan" seluruh tampilan dari App.jsx -->
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
